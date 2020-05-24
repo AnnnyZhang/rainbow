@@ -1,0 +1,78 @@
+*{
+     /* 边框盒 */
+     box-sizing: border-box;
+}
+.rainbow div {
+    /* 圆角 */
+    border-radius: 50%;
+    /* 消除外边距合并 */
+    overflow: hidden;
+    /* 外边距 */
+    margin: 20px;
+}
+/* 外层 */
+.rainbow {
+    /* 高度 */
+    height: 300px;
+    /* 宽度 */
+    width: 600px;
+    /* 居中 */
+    margin: 50px auto;
+    /* 裁剪溢出部分 */
+    overflow: hidden;
+}
+/* 第一层 */
+.rainbow>div{
+    /* 背景颜色 */
+    background-color: #f00;
+    /* 高度 */
+    height: 570px;
+}
+/* 第二层 */
+.rainbow>div>div{
+    /* 背景颜色 */
+    background-color: #FF7D00;
+    /* 高度 */
+    height: 540px;
+}
+/* 第三层 */
+.rainbow>div>div>div{
+    /* 背景颜色 */
+    background-color: #ff0;
+    /* 高度 */
+    height: 510px;
+}
+/* 第四层 */
+.rainbow>div>div>div>div{
+    /* 背景颜色 */
+    background-color: #0f0;
+    /* 高度 */
+    height: 480px;
+}
+/* 第五层 */
+.rainbow>div>div>div>div>div{
+    /* 背景颜色 */
+    background-color: #00f;
+    /* 高度 */
+    height: 450px;
+}
+/* 第六层 */
+.rainbow>div>div>div>div>div>div{
+    /* 背景颜色 */
+    background-color: #0ff;
+    /* 高度 */
+    height: 420px;
+}
+/* 第7层 */
+.rainbow>div>div>div>div>div>div>div{
+    /* 背景颜色 */
+    background-color: #f0f;
+    /* 高度 */
+    height: 390px;
+}
+.rainbow>div>div>div>div>div>div>div>div{
+    /* 背景颜色 */
+    background-color: white;
+    /* 高度 */
+    height: 360px;
+}
